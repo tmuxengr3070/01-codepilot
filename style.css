@@ -1,4 +1,41 @@
 html {
   height: 100%;
   width: 100%;
+}/* Give the header a blue background and white text */
+header {
+  background-color: #7c66fa; /* Blue background */
+  color: white; /* White text */
+  text-align: center; /* Centered text */
+  padding: 10px; /* Some padding */
+}
+
+/* Stylish nav bar */
+nav {
+  margin-top: 10px;
+}
+
+ul.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+ul.navbar li {
+  display: inline;
+}
+
+ul.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+ul.navbar a:hover {
+  background: rgba(255,255,255,0.2);
 }
